@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="95px" viewBox="0 0 89 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>.dot.animated {
+        -webkit-animation: dash 0.5s linear forwards;
+        -o-animation: dash 0.5s linear forwards;
+        -moz-animation: dash 0.5s linear forwards;
+        animation: dash 0.5s linear forwards;
+        }
+        .dot {
+        fill: #1476f2;
+        fill-opacity: 0;
+        }
+        @-webkit-keyframes dash {
+        0% { fill-opacity: 0; }
+        100% { fill-opacity: 1; }
+        }
+        @-moz-keyframes dash {
+        0% { fill-opacity: 0; }
+        100% { fill-opacity: 1; }
+        }</style>
+
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="inclined-dops-first" fill="#1476F2" fill-rule="nonzero">
+            <path class="dot" d="M3.5571,94.3476 C3.1121,95.0416 2.1871,95.2406 1.4911,94.7916 C0.7951,94.3416 0.5951,93.4096 1.0441,92.7096 C1.4931,92.0086 2.4181,91.8096 3.1101,92.2656 C3.8021,92.7216 4.0021,93.6536 3.5571,94.3476" id="1"></path>
+            <path class="dot" d="M15.4043,77.1841 C14.9263,77.8561 13.9963,78.0061 13.3263,77.5181 C12.6563,77.0301 12.5053,76.0851 12.9873,75.4071 C13.4703,74.7281 14.4003,74.5791 15.0653,75.0731 C15.7303,75.5671 15.8823,76.5121 15.4043,77.1841" id="2"></path>
+            <path class="dot" d="M26.0972,60.9219 C25.4602,60.3999 25.3462,59.4349 25.8762,58.7939 C26.4212,58.1649 27.3782,58.0849 28.0142,58.6149 C28.6502,59.1459 28.7282,60.0819 28.1882,60.7049 C27.6632,61.3399 26.7422,61.4499 26.0972,60.9219" id="3"></path>
+            <path class="dot" d="M39.8306,45.1125 C39.2196,44.5525 39.1906,43.6105 39.7646,43.0085 C40.3396,42.4055 41.2956,42.3755 41.9006,42.9415 C42.5056,43.5075 42.5356,44.4495 41.9666,45.0455 C41.3976,45.6425 40.4406,45.6725 39.8306,45.1125" id="4"></path>
+            <path class="dot" d="M54.499,28.0107 C55.102,27.4367 56.054,27.4567 56.626,28.0547 C57.199,28.6537 57.179,29.6007 56.582,30.1697 C55.986,30.7387 55.033,30.7187 54.455,30.1257 C53.877,29.5317 53.896,28.5847 54.499,28.0107" id="5"></path>
+            <path class="dot" d="M70.0342,13.8464 C70.6632,13.3014 71.6092,13.3704 72.1472,14.0004 C72.6852,14.6304 72.6162,15.5784 71.9932,16.1184 C71.3692,16.6584 70.4242,16.5894 69.8802,15.9644 C69.3362,15.3394 69.4052,14.3914 70.0342,13.8464" id="6"></path>
+            <path class="dot" d="M86.3252,0.5576 C86.9802,0.0436 87.9172,0.1606 88.4182,0.8196 C88.9202,1.4796 88.8012,2.4266 88.1532,2.9366 C87.5052,3.4456 86.5672,3.3286 86.0592,2.6736 C85.5522,2.0196 85.6712,1.0716 86.3252,0.5576" id="7"></path>
+        </g>
+    </g>
+    <script type="text/javascript">
+        document.animate = function() {
+        var elemArr = document.getElementsByClassName("dot");
+        if (!this.hasOwnProperty('animated')) this.animated = false;
+        if (!this.animated) {
+        for (var i = elemArr.length - 1; i >= 0 ; i-- ) {
+        (function(n) {
+        var elmTiming = elemArr[n].getAttribute("id") * 100;
+        setTimeout(function() {
+        elemArr[n].setAttribute("class", "dot animated");
+        }, elmTiming);
+        })(i)
+        }
+        this.animated = true;
+        }
+        }
+    </script>
+</svg>

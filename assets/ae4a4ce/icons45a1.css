@@ -1,0 +1,797 @@
+@font-face {
+    font-display: swap;
+    font-family: "isofIconfont";
+    src: url('fonts/isofIconfont.eot');
+    src: url('fonts/isofIconfontd41d.eot?#iefix') format('eot'),
+    url('fonts/isofIconfont.woff2') format('woff2'),
+    url('fonts/isofIconfont.woff') format('woff'),
+    url('fonts/isofIconfont.ttf') format('truetype'),
+    url('fonts/isofIconfont.svg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class^="isoi-"], [class*=" isoi-"] {
+    font-display: swap;
+    font-family: 'isofIconfont' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.isoi-360-ar:before {
+    content: "\E001";
+}
+
+.isoi-3d-site-reconstruction:before {
+    content: "\E002";
+}
+
+.isoi-advanced-analytics:before {
+    content: "\E003";
+}
+
+.isoi-ai-assistant:before {
+    content: "\E004";
+}
+
+.isoi-amazon:before {
+    content: "\E005";
+}
+
+.isoi-aml-kyc:before {
+    content: "\E006";
+}
+
+.isoi-analyse:before {
+    content: "\E007";
+}
+
+.isoi-analytics:before {
+    content: "\E008";
+}
+
+.isoi-android-auto:before {
+    content: "\E009";
+}
+
+.isoi-android:before {
+    content: "\E00A";
+}
+
+.isoi-angle-down:before {
+    content: "\E00B";
+}
+
+.isoi-angle-left:before {
+    content: "\E00C";
+}
+
+.isoi-angle-right:before {
+    content: "\E00D";
+}
+
+.isoi-angle-up:before {
+    content: "\E00E";
+}
+
+.isoi-api:before {
+    content: "\E00F";
+}
+
+.isoi-apple-carplay:before {
+    content: "\E010";
+}
+
+.isoi-ar-progress-monitoring:before {
+    content: "\E011";
+}
+
+.isoi-arrow_left:before {
+    content: "\E012";
+}
+
+.isoi-arrow_right:before {
+    content: "\E013";
+}
+
+.isoi-artificial-intelligence:before {
+    content: "\E014";
+}
+
+.isoi-as-built-measurements:before {
+    content: "\E015";
+}
+
+.isoi-augmented-reality:before {
+    content: "\E016";
+}
+
+.isoi-automatic-hazard-detection:before {
+    content: "\E017";
+}
+
+.isoi-beacons:before {
+    content: "\E018";
+}
+
+.isoi-better-collaboration:before {
+    content: "\E019";
+}
+
+.isoi-big-data:before {
+    content: "\E01A";
+}
+
+.isoi-blockchain-solutions:before {
+    content: "\E01B";
+}
+
+.isoi-blockchain:before {
+    content: "\E01C";
+}
+
+.isoi-blockchains-and-forks:before {
+    content: "\E01D";
+}
+
+.isoi-built-vs-designed:before {
+    content: "\E01E";
+}
+
+.isoi-business-intelligence:before {
+    content: "\E01F";
+}
+
+.isoi-chat-settings:before {
+    content: "\E020";
+}
+
+.isoi-chat:before {
+    content: "\E021";
+}
+
+.isoi-check-ins:before {
+    content: "\E022";
+}
+
+.isoi-choose-a-solution:before {
+    content: "\E023";
+}
+
+.isoi-clash-detections-in-ar:before {
+    content: "\E024";
+}
+
+.isoi-cloud-computing:before {
+    content: "\E025";
+}
+
+.isoi-concierge:before {
+    content: "\E026";
+}
+
+.isoi-content-management-2:before {
+    content: "\E027";
+}
+
+.isoi-content-management:before {
+    content: "\E028";
+}
+
+.isoi-cross-border-payment:before {
+    content: "\E029";
+}
+
+.isoi-cryptocurrencies:before {
+    content: "\E02A";
+}
+
+.isoi-custom-iot:before {
+    content: "\E02B";
+}
+
+.isoi-custom-mobile-features:before {
+    content: "\E02C";
+}
+
+.isoi-custom-reporting:before {
+    content: "\E02D";
+}
+
+.isoi-database:before {
+    content: "\E02E";
+}
+
+.isoi-databases:before {
+    content: "\E02F";
+}
+
+.isoi-dev_team:before {
+    content: "\E030";
+}
+
+.isoi-devops-cloud:before {
+    content: "\E031";
+}
+
+.isoi-digital-twin-representations:before {
+    content: "\E032";
+}
+
+.isoi-digital-wallets:before {
+    content: "\E033";
+}
+
+.isoi-dimension-of-manufacturing:before {
+    content: "\E034";
+}
+
+.isoi-dimension-of-operations:before {
+    content: "\E035";
+}
+
+.isoi-dimension-of-productivity:before {
+    content: "\E036";
+}
+
+.isoi-dimension-of-user-experience:before {
+    content: "\E037";
+}
+
+.isoi-director_software_development:before {
+    content: "\E038";
+}
+
+.isoi-docker:before {
+    content: "\E039";
+}
+
+.isoi-document-management:before {
+    content: "\E03A";
+}
+
+.isoi-double_arrow:before {
+    content: "\E03B";
+}
+
+.isoi-ebook:before {
+    content: "\E03C";
+}
+
+.isoi-ecommerce-clothes:before {
+    content: "\E03D";
+}
+
+.isoi-ecommerce:before {
+    content: "\E03E";
+}
+
+.isoi-emergency:before {
+    content: "\E03F";
+}
+
+.isoi-employee-training:before {
+    content: "\E040";
+}
+
+.isoi-ensure-iot:before {
+    content: "\E041";
+}
+
+.isoi-enterprise-mobility:before {
+    content: "\E042";
+}
+
+.isoi-entertainment:before {
+    content: "\E043";
+}
+
+.isoi-etherum:before {
+    content: "\E044";
+}
+
+.isoi-exclusive:before {
+    content: "\E045";
+}
+
+.isoi-execute:before {
+    content: "\E046";
+}
+
+.isoi-exonum:before {
+    content: "\E047";
+}
+
+.isoi-explore-construction-site:before {
+    content: "\E048";
+}
+
+.isoi-faster-platform:before {
+    content: "\E049";
+}
+
+.isoi-faster-time-to-market:before {
+    content: "\E04A";
+}
+
+.isoi-flexibility:before {
+    content: "\E04B";
+}
+
+.isoi-food-delivery:before {
+    content: "\E04C";
+}
+
+.isoi-ford-sync:before {
+    content: "\E04D";
+}
+
+.isoi-gamification:before {
+    content: "\E04E";
+}
+
+.isoi-geofenced-messaging:before {
+    content: "\E04F";
+}
+
+.isoi-global-networks:before {
+    content: "\E050";
+}
+
+.isoi-greater-business-efficiency:before {
+    content: "\E051";
+}
+
+.isoi-greater-business-security:before {
+    content: "\E052";
+}
+
+.isoi-greater-productivity:before {
+    content: "\E053";
+}
+
+.isoi-higher-software-quality:before {
+    content: "\E054";
+}
+
+.isoi-higher-software:before {
+    content: "\E055";
+}
+
+.isoi-hiring_onboarding:before {
+    content: "\E056";
+}
+
+.isoi-html5:before {
+    content: "\E057";
+}
+
+.isoi-hyper:before {
+    content: "\E058";
+}
+
+.isoi-identification:before {
+    content: "\E059";
+}
+
+.isoi-instant-assistance:before {
+    content: "\E05A";
+}
+
+.isoi-integrated-wearables:before {
+    content: "\E05B";
+}
+
+.isoi-intelligent-consulting:before {
+    content: "\E05C";
+}
+
+.isoi-intelligent-solutions:before {
+    content: "\E05D";
+}
+
+.isoi-ios:before {
+    content: "\E05E";
+}
+
+.isoi-iot-chip:before {
+    content: "\E05F";
+}
+
+.isoi-iot-home:before {
+    content: "\E060";
+}
+
+.isoi-java:before {
+    content: "\E061";
+}
+
+.isoi-javascript:before {
+    content: "\E062";
+}
+
+.isoi-jenkins-logo:before {
+    content: "\E063";
+}
+
+.isoi-kpi-dashboards:before {
+    content: "\E064";
+}
+
+.isoi-location-global-2:before {
+    content: "\E065";
+}
+
+.isoi-location-global:before {
+    content: "\E066";
+}
+
+.isoi-location-tracking:before {
+    content: "\E067";
+}
+
+.isoi-long-arrow:before {
+    content: "\E068";
+}
+
+.isoi-microsoft-azure:before {
+    content: "\E069";
+}
+
+.isoi-microsoft-sql:before {
+    content: "\E06A";
+}
+
+.isoi-mobile-app:before {
+    content: "\E06B";
+}
+
+.isoi-mobile-apps:before {
+    content: "\E06C";
+}
+
+.isoi-mobile-key:before {
+    content: "\E06D";
+}
+
+.isoi-mobile-live-streaming:before {
+    content: "\E06E";
+}
+
+.isoi-mobile-navigation:before {
+    content: "\E06F";
+}
+
+.isoi-mobile-payments:before {
+    content: "\E070";
+}
+
+.isoi-mobile-transfers:before {
+    content: "\E071";
+}
+
+.isoi-money-transfer:before {
+    content: "\E072";
+}
+
+.isoi-mongodb:before {
+    content: "\E073";
+}
+
+.isoi-monitor-operations:before {
+    content: "\E074";
+}
+
+.isoi-motion-controllers:before {
+    content: "\E075";
+}
+
+.isoi-multichain:before {
+    content: "\E076";
+}
+
+.isoi-music:before {
+    content: "\E077";
+}
+
+.isoi-mysql:before {
+    content: "\E078";
+}
+
+.isoi-navigation-location:before {
+    content: "\E079";
+}
+
+.isoi-net-logo:before {
+    content: "\E07A";
+}
+
+.isoi-networking-global:before {
+    content: "\E07B";
+}
+
+.isoi-networking-social:before {
+    content: "\E07C";
+}
+
+.isoi-news:before {
+    content: "\E07D";
+}
+
+.isoi-nxt:before {
+    content: "\E07E";
+}
+
+.isoi-omni-channel:before {
+    content: "\E07F";
+}
+
+.isoi-online-billing:before {
+    content: "\E080";
+}
+
+.isoi-optimise-operations:before {
+    content: "\E081";
+}
+
+.isoi-oracle:before {
+    content: "\E082";
+}
+
+.isoi-p2p-lending-solutions:before {
+    content: "\E083";
+}
+
+.isoi-paper-clip:before {
+    content: "\E084";
+}
+
+.isoi-parity:before {
+    content: "\E085";
+}
+
+.isoi-payment-processing:before {
+    content: "\E086";
+}
+
+.isoi-photogrammetry:before {
+    content: "\E087";
+}
+
+.isoi-php:before {
+    content: "\E088";
+}
+
+.isoi-pinpoint:before {
+    content: "\E089";
+}
+
+.isoi-play-button:before {
+    content: "\E08A";
+}
+
+.isoi-pos:before {
+    content: "\E08B";
+}
+
+.isoi-postgresql:before {
+    content: "\E08C";
+}
+
+.isoi-probabilistic-models-for-risk-assessments:before {
+    content: "\E08D";
+}
+
+.isoi-project_manajers:before {
+    content: "\E08E";
+}
+
+.isoi-push-notifications:before {
+    content: "\E08F";
+}
+
+.isoi-qr-scanners:before {
+    content: "\E090";
+}
+
+.isoi-r-3:before {
+    content: "\E091";
+}
+
+.isoi-real-time-vehicle:before {
+    content: "\E092";
+}
+
+.isoi-recipe-shopping:before {
+    content: "\E093";
+}
+
+.isoi-relationship:before {
+    content: "\E094";
+}
+
+.isoi-reminders:before {
+    content: "\E095";
+}
+
+.isoi-remote-guidance-for-field-workers:before {
+    content: "\E096";
+}
+
+.isoi-restaurant-menu:before {
+    content: "\E097";
+}
+
+.isoi-rewards:before {
+    content: "\E098";
+}
+
+.isoi-scalability:before {
+    content: "\E099";
+}
+
+.isoi-scheduling:before {
+    content: "\E09A";
+}
+
+.isoi-scouting:before {
+    content: "\E09B";
+}
+
+.isoi-secure-payments:before {
+    content: "\E09C";
+}
+
+.isoi-senior_programm_manager:before {
+    content: "\E09D";
+}
+
+.isoi-sensors:before {
+    content: "\E09E";
+}
+
+.isoi-smart-alert:before {
+    content: "\E09F";
+}
+
+.isoi-smart-business:before {
+    content: "\E0A0";
+}
+
+.isoi-smart-design:before {
+    content: "\E0A1";
+}
+
+.isoi-smart-devices:before {
+    content: "\E0A2";
+}
+
+.isoi-smart-warehousing:before {
+    content: "\E0A3";
+}
+
+.isoi-smart-wearable-devices:before {
+    content: "\E0A4";
+}
+
+.isoi-social:before {
+    content: "\E0A5";
+}
+
+.isoi-software-engineering:before {
+    content: "\E0A6";
+}
+
+.isoi-software:before {
+    content: "\E0A7";
+}
+
+.isoi-spa-services:before {
+    content: "\E0A8";
+}
+
+.isoi-staff:before {
+    content: "\E0A9";
+}
+
+.isoi-steering_committee:before {
+    content: "\E0AA";
+}
+
+.isoi-store-navigation:before {
+    content: "\E0AB";
+}
+
+.isoi-structure-from-motion-pipeline:before {
+    content: "\E0AC";
+}
+
+.isoi-subscription:before {
+    content: "\E0AD";
+}
+
+.isoi-supply-chain:before {
+    content: "\E0AE";
+}
+
+.isoi-support:before {
+    content: "\E0AF";
+}
+
+.isoi-tablet:before {
+    content: "\E0B0";
+}
+
+.isoi-temporal-objects-tracking:before {
+    content: "\E0B1";
+}
+
+.isoi-tracking-objects-from-video-cameras:before {
+    content: "\E0B2";
+}
+
+.isoi-trading-securities:before {
+    content: "\E0B3";
+}
+
+.isoi-training-software:before {
+    content: "\E0B4";
+}
+
+.isoi-transit:before {
+    content: "\E0B5";
+}
+
+.isoi-transportation-big-data:before {
+    content: "\E0B6";
+}
+
+.isoi-upload-2:before {
+    content: "\E0B7";
+}
+
+.isoi-upload:before {
+    content: "\E0B8";
+}
+
+.isoi-video-chat:before {
+    content: "\E0B9";
+}
+
+.isoi-video:before {
+    content: "\E0BA";
+}
+
+.isoi-virtual-reality:before {
+    content: "\E0BB";
+}
+
+.isoi-wearable-tech:before {
+    content: "\E0BC";
+}
+
+.isoi-web-portals:before {
+    content: "\E0BD";
+}
+
+.isoi-web_dev:before {
+    content: "\E0BE";
+}
+
+.isoi-xamarin:before {
+    content: "\E0BF";
+}
+
+.isoi-your-requirements:before {
+    content: "\E0C0";
+}
+
+.isoi-your-team:before {
+    content: "\E0C1";
+}

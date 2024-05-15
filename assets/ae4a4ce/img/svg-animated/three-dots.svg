@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="4px" height="46px" viewBox="0 0 4 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>.dot.animated {
+        -webkit-animation: dash 0.5s linear forwards;
+        -o-animation: dash 0.5s linear forwards;
+        -moz-animation: dash 0.5s linear forwards;
+        animation: dash 0.5s linear forwards;
+        }
+        .dot {
+        fill: #1476f2;
+        fill-opacity: 1;
+        }
+        @-webkit-keyframes dash {
+        0% { fill-opacity: 0; }
+        100% { fill-opacity: 1; }
+        }
+        @-moz-keyframes dash {
+        0% { fill-opacity: 0; }
+        100% { fill-opacity: 1; }
+        }</style>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="line-dops-3" fill="#1476F2" fill-rule="nonzero">
+            <circle class="dot" id="3" transform="translate(2.000000, 44.000000) rotate(90.000000) translate(-2.000000, -44.000000) " cx="2" cy="44" r="1.5"></circle>
+            <circle class="dot" id="2" transform="translate(2.000000, 23.000000) rotate(90.000000) translate(-2.000000, -23.000000) " cx="2" cy="23" r="1.5"></circle>
+            <circle class="dot" id="1" transform="translate(2.000000, 2.000000) rotate(90.000000) translate(-2.000000, -2.000000) " cx="2" cy="2" r="1.5"></circle>
+        </g>
+    </g>
+    <script type="text/javascript">
+        document.animate = function() {
+        var elemArr = document.getElementsByClassName("dot");
+        if (!this.hasOwnProperty('animated')) this.animated = false;
+        if (!this.animated) {
+        for (var i = elemArr.length - 1; i >= 0 ; i-- ) {
+        (function(n) {
+        var elmTiming = elemArr[n].getAttribute("id") * 100;
+        setTimeout(function() {
+        elemArr[n].setAttribute("class", "dot animated");
+        }, elmTiming);
+        })(i)
+        }
+        this.animated = true;
+        }
+        }
+    </script>
+</svg>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 242 247" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>395BA9AD-63BA-49D6-83DB-0C952BE89075</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <style>
+        .line.animated{
+            opacity: 1;
+            stroke-dasharray: 640;
+            stroke-dashoffset: 0;
+            -webkit-animation: dash 1s linear forwards;
+            -o-animation: dash 1s linear forwards;
+            -moz-animation: dash 1s linear forwards;
+            animation: dash 1s linear forwards;
+        }
+
+        .line{
+            opacity: 0
+        }
+
+        @-webkit-keyframes dash{
+        from{
+            stroke-dashoffset: 640;
+        }
+        to{
+            stroke-dashoffset: 0;
+        }
+        }
+        svg{
+            padding: 5px;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+    </style>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="IS_Fintech_1200_2" transform="translate(-95.000000, -2794.000000)" stroke-width="2">
+            <g id="digital-wallets" transform="translate(96.000000, 2794.000000)">
+                <path class="line additional" d="M87.1111111,147.73913 L74.4092222,147.73913 C56.8672222,147.73913 49,153.902174 49,174.913043 L49,180.347826 C49,201.358696 56.8672222,207.521739 74.4092222,207.521739 L87.1111111,207.521739" id="Stroke-1" stroke="#1476F2"></path>
+                <path class="line additional" d="M38.1111111,169 L70.7777778,169" id="Stroke-3" stroke="#1476F2"></path>
+                <path class="line additional" d="M38.1111111,185 L70.7777778,185" stroke="#1476F2"></path>
+                <polyline class="line additional" stroke="#505050"  points="163.333333 87.9565217 163.333333 93.3913043 179.666667 120.565217"></polyline>
+                <polyline class="line additional" id="Stroke-9" stroke="#505050" points="196 87.9565217 196 93.3913043 179.666667 120.565217"></polyline>
+                <path class="line additional" d="M179,120.565217 L179,158.608696" id="Stroke-11" stroke="#505050"></path>
+                <path class="line additional" d="M163.333333,131 L196,131" id="Stroke-13" stroke="#505050"></path>
+                <path class="line additional" d="M163.333333,147 L196,147" id="Stroke-15" stroke="#505050"></path>
+                <path class="line additional" d="M92.5555556,33.6086957 L70.7777778,33.6086957 C64.7616667,33.6086957 59.8888889,38.4728261 59.8888889,44.4782609 C59.8888889,50.4836957 64.7616667,55.3478261 70.7777778,55.3478261 L76.2222222,55.3478261 C82.2383333,55.3478261 87.1111111,60.2119565 87.1111111,66.2173913 C87.1111111,72.2228261 82.2383333,77.0869565 76.2222222,77.0869565 L54.4444444,77.0869565" id="Stroke-17" stroke="#505050"></path>
+                <path class="line additional" d="M76,77.0869565 L76,93.3913043" id="Stroke-19" stroke="#505050"></path>
+                <path class="line additional" d="M76,33.6086957 L76,17.3043478" id="Stroke-21" stroke="#505050"></path>
+                <path class="line" d="M133.407944,196.648913 C125.1705,224.909783 99.0262778,245.567391 68.0582778,245.567391 C30.4698333,245.567391 0.00272222222,215.148913 0.00272222222,177.632609 C0.00272222222,140.11087 30.4698333,109.697826 68.0582778,109.697826 C75.1033889,109.697826 81.8980556,110.763043 88.2952778,112.752174" id="blue-line" stroke="#1476F2"></path>
+                <path class="line additional" d="M153.779422,51.5027174 C158.614089,50.4592391 163.633867,49.9157609 168.778867,49.9157609 C207.864533,49.9157609 239.556644,81.5461957 239.556644,120.567935 C239.556644,159.584239 207.864533,191.220109 168.778867,191.220109 C141.5512,191.220109 117.911422,175.872283 106.0752,153.372283" id="Stroke-25" stroke="#505050"></path>
+                <path class="line additional" d="M19.0457556,109.68913 C10.5034222,98.3358696 5.44553333,84.2271739 5.44553333,68.9336957 C5.44553333,31.4173913 35.9126444,0.998913043 73.5010889,0.998913043 C111.084089,0.998913043 141.556644,31.4173913 141.556644,68.9336957 C141.556644,88.6130435 133.177644,106.330435 119.784311,118.738043" id="Stroke-27" stroke="#505050"></path>
+            </g>
+        </g>
+    </g>
+    <script type="text/javascript">
+        document.animate = function(){
+            var isAnimated = false;
+
+            var animatedElement = document.getElementById("blue-line");
+            animatedElement.setAttribute("class", "line animated");
+            animatedElement.addEventListener("animationstart", function(){
+                isAnimated = true;
+            });
+            if (animatedElement.addEventListener){
+                animatedElement.addEventListener("animationend", function(){
+                    var elemArr = document.getElementsByClassName("additional");
+                    for (var i = elemArr.length - 1; i>=0 ; i-- ){
+                        elemArr[i].setAttribute("class", "line additional animated");
+                    }
+                })
+            }else if (animatedElement.attachEvent){
+                animatedElement.attachEvent("animationend", function(){
+                    var elemArr = document.getElementsByClassName("additional");
+                    for (var i = elemArr.length - 1; i>=0 ; i-- ){
+                        elemArr[i].setAttribute("class", "line additional animated");
+                    }
+                })
+            }
+
+            setTimeout(function(){
+                if(!isAnimated){
+                    var elemArr = document.getElementsByClassName("additional");
+                    for (var i = elemArr.length - 1; i>=0 ; i-- ){
+                        elemArr[i].setAttribute("class", "line additional animated");
+                    }
+                }
+            },1000)
+
+        }
+    </script>
+</svg>

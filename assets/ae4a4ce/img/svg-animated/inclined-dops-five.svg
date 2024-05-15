@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="89px" height="95px" viewBox="0 0 89 95" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>.dot.animated {
+        -webkit-animation: dash 0.5s linear forwards;
+        -o-animation: dash 0.5s linear forwards;
+        -moz-animation: dash 0.5s linear forwards;
+        animation: dash 0.5s linear forwards;
+        }
+        .dot {
+        fill: #1476f2;
+        fill-opacity: 0;
+        }
+        @-webkit-keyframes dash {
+        0% { fill-opacity: 0; }
+        100% { fill-opacity: 1; }
+        }
+        @-moz-keyframes dash {
+        0% { fill-opacity: 0; }
+        100% { fill-opacity: 1; }
+        }</style>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="inclined-dops-five" transform="translate(0.000000, -1.000000)" fill="#1476F2" fill-rule="nonzero">
+            <path class="dot" d="M3.5571,3.29525425 C3.1121,3.98925425 2.1871,4.18825425 1.4911,3.73925425 C0.7951,3.28925425 0.5951,2.35725425 1.0441,1.65725425 C1.4931,0.956254251 2.4181,0.757254251 3.1101,1.21325425 C3.8021,1.66925425 4.0021,2.60125425 3.5571,3.29525425" id="1" transform="translate(2.299216, 2.473827) scale(-1, 1) rotate(-180.000000) translate(-2.299216, -2.473827) "></path>
+            <path class="dot" d="M15.4043,20.5974961 C14.9263,21.2694961 13.9963,21.4194961 13.3263,20.9314961 C12.6563,20.4434961 12.5053,19.4984961 12.9873,18.8204961 C13.4703,18.1414961 14.4003,17.9924961 15.0653,18.4864961 C15.7303,18.9804961 15.8823,19.9254961 15.4043,20.5974961" id="2" transform="translate(14.194226, 19.706698) scale(-1, 1) rotate(-180.000000) translate(-14.194226, -19.706698) "></path>
+            <path class="dot" d="M26.0972,37.3994348 C25.4602,36.8774348 25.3462,35.9124348 25.8762,35.2714348 C26.4212,34.6424348 27.3782,34.5624348 28.0142,35.0924348 C28.6502,35.6234348 28.7282,36.5594348 28.1882,37.1824348 C27.6632,37.8174348 26.7422,37.9274348 26.0972,37.3994348" id="3" transform="translate(27.043679, 36.238767) scale(-1, 1) rotate(-180.000000) translate(-27.043679, -36.238767) "></path>
+            <path class="dot" d="M39.8306,53.0629922 C39.2196,52.5029922 39.1906,51.5609922 39.7646,50.9589922 C40.3396,50.3559922 41.2956,50.3259922 41.9006,50.8919922 C42.5056,51.4579922 42.5356,52.3999922 41.9666,52.9959922 C41.3976,53.5929922 40.4406,53.6229922 39.8306,53.0629922" id="4" transform="translate(40.863548, 51.975246) scale(-1, 1) rotate(-180.000000) translate(-40.863548, -51.975246) "></path>
+            <path class="dot" d="M54.499,65.8340472 C55.102,65.2600472 56.054,65.2800472 56.626,65.8780472 C57.199,66.4770472 57.179,67.4240472 56.582,67.9930472 C55.986,68.5620472 55.033,68.5420472 54.455,67.9490472 C53.877,67.3550472 53.896,66.4080472 54.499,65.8340472" id="5" transform="translate(55.538444, 66.911674) scale(-1, 1) rotate(-180.000000) translate(-55.538444, -66.911674) "></path>
+            <path class="dot" d="M70.0342,79.8853161 C70.6632,79.3403161 71.6092,79.4093161 72.1472,80.0393161 C72.6852,80.6693161 72.6162,81.6173161 71.9932,82.1573161 C71.3692,82.6973161 70.4242,82.6283161 69.8802,82.0033161 C69.3362,81.3783161 69.4052,80.4303161 70.0342,79.8853161" id="6" transform="translate(71.011470, 81.019458) scale(-1, 1) rotate(-180.000000) translate(-71.011470, -81.019458) "></path>
+            <path class="dot" d="M86.3252,93.067126 C86.9802,92.553126 87.9172,92.670126 88.4182,93.329126 C88.9202,93.989126 88.8012,94.936126 88.1532,95.446126 C87.5052,95.955126 86.5672,95.838126 86.0592,95.183126 C85.5522,94.529126 85.6712,93.581126 86.3252,93.067126" id="7" transform="translate(87.236913, 94.254763) scale(-1, 1) rotate(-180.000000) translate(-87.236913, -94.254763) "></path>
+        </g>
+    </g>
+    <script type="text/javascript">
+        document.animate = function() {
+        var elemArr = document.getElementsByClassName("dot");
+        if (!this.hasOwnProperty('animated')) this.animated = false;
+        if (!this.animated) {
+        for (var i = elemArr.length - 1; i >= 0 ; i-- ) {
+        (function(n) {
+        var elmTiming = elemArr[n].getAttribute("id") * 100;
+        setTimeout(function() {
+        elemArr[n].setAttribute("class", "dot animated");
+        }, elmTiming);
+        })(i)
+        }
+        this.animated = true;
+        }
+        }
+    </script>
+</svg>

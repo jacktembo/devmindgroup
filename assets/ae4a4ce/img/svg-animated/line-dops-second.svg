@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 255 3" xmlns="http://www.w3.org/2000/svg">
+<style>.dot.animated {
+            -webkit-animation: dash 0.5s linear forwards;
+            -o-animation: dash 0.5s linear forwards;
+            -moz-animation: dash 0.5s linear forwards;
+            animation: dash 0.5s linear forwards;
+        }
+        .dot {
+            fill: #1476f2;
+            fill-opacity: 0;
+        }
+        @-webkit-keyframes dash {
+            0% { fill-opacity: 0; }
+            100% { fill-opacity: 1; }
+        }
+        @-moz-keyframes dash {
+            0% { fill-opacity: 0; }
+            100% { fill-opacity: 1; }
+        }</style>
+<g fill="none" fill-rule="evenodd">
+<circle id="27" class="dot" cx="253.5" cy="1.5" r="1.5"/>
+<circle id="26" class="dot" cx="232.5" cy="1.5" r="1.5"/>
+<circle id="25" class="dot" cx="211.5" cy="1.5" r="1.5"/>
+<circle id="24" class="dot" cx="190.5" cy="1.5" r="1.5"/>
+<circle id="23" class="dot" cx="169.5" cy="1.5" r="1.5"/>
+<circle id="22" class="dot" cx="148.5" cy="1.5" r="1.5"/>
+<circle id="21" class="dot" cx="127.5" cy="1.5" r="1.5"/>
+<circle id="20" class="dot" cx="106.5" cy="1.5" r="1.5"/>
+<circle id="19" class="dot" cx="85.5" cy="1.5" r="1.5"/>
+<circle id="18" class="dot" cx="64.5" cy="1.5" r="1.5"/>
+<circle id="17" class="dot" cx="43.5" cy="1.5" r="1.5"/>
+<circle id="16" class="dot" cx="22.5" cy="1.5" r="1.5"/>
+<circle id="15" class="dot" cx="1.5" cy="1.5" r="1.5"/>
+</g>
+<script type="text/javascript">document.animate = function() {
+        var elemArr = document.getElementsByClassName("dot");
+        if (!this.hasOwnProperty('animated')) this.animated = false;
+        if (!this.animated) {
+            for (var i = elemArr.length - 1; i >= 0 ; i-- ) {
+                    (function(n) {
+                        var elmTiming = elemArr[n].getAttribute("id") * 100;
+                        setTimeout(function() {
+                            elemArr[n].setAttribute("class", "dot animated");
+                        }, elmTiming);
+                    })(i)
+                }
+                this.animated = true;
+            }
+        }</script>
+</svg>

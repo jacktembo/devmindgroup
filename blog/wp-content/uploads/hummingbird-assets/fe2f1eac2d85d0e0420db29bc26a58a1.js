@@ -1,0 +1,2 @@
+/**handles:querystringify**/
+"use strict";function querystring(e){for(var n=/([^=?&]+)=?([^&]*)/g,o={},r;r=n.exec(e);o[decodeURIComponent(r[1])]=decodeURIComponent(r[2]));return o}function querystringify(e,n){n=n||"";var o=[];"string"!=typeof n&&(n="?");for(var r in e)has.call(e,r)&&o.push(encodeURIComponent(r)+"="+encodeURIComponent(e[r]));return o.length?n+o.join("&"):""}var has=Object.prototype.hasOwnProperty;
